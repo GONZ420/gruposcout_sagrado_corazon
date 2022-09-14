@@ -38,12 +38,17 @@ header .container nav a{
     font-family: sans-serif;
 }
 
+@media only screen and (max-width: 650px){
+    
+}
+
 #inicio {
     position: relative;
 }
 
 #inicio img{
     width: 100%;
+    height: 100vh;
     display:inline-block;
     position: relative;
 }
@@ -71,8 +76,16 @@ header .container nav a{
     font-family: sans-serif;
 }
 #inicio .bloque_inicio a{
-    color: black;
+    color: rgb(7, 7, 7);
     font-size: 25px;
     font-weight: bold;
+    background-color: rgb(252, 252, 252);
+}
+
+#nosotros{
+    width: 70%;
+    height: 40px ;
+    padding: 0;
+    margin: 1em;
 }
 
